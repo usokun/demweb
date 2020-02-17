@@ -1,0 +1,76 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  height: 2000px;
+  background: #ffffff;
+}
+
+/* NAVBAR */
+.nav-cust {
+  padding: 25px 25px 25px 25px;
+}
+
+.nav-logo {
+  position: relative;
+  font-size:30px;
+  padding: 0px 100px 0px 20px;
+
+}
+
+.nav-item-spacing {
+  padding: 0px 15px 0px 15px;
+}
+
+.nav-active {
+  color: #000000!important;
+}
+
+.dropdown-menu {
+  margin-top: 0;
+}
+/* --------------*/
+
+/*  CAROUSEL */
+#slider { padding: 1.5rem; margin-right: 0; margin-left: 0; border-width: .2rem; }
+.box-center { margin: 0 auto; }
+.carousel-caption {
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding-bottom: 30px;
+	opacity: 0;
+	transition: all 800ms linear;
+	background: rgba(0, 0, 0, 0.45);
+}
+.carousel-item {
+	&.active .carousel-caption { opacity: 1; }
+}
+/* --------------*/
+
+/*  LINKS */
+*{padding:0;margin:0;}
+
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#ebebeb;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}
+/* --------------*/
